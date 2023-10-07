@@ -1,0 +1,38 @@
+#include ".config/xres/theme"
+
+*color0: col00
+*color1: col01
+*color2: col02
+*color3: col03
+*color4: col04
+*color5: col05
+*color6: col06
+*color7: col07
+
+*color8: col08
+*color9: col09
+*color10: col0A
+*color11: col0B
+*color12: col0C
+*color13: col0D
+*color14: col0E
+*color15: col0F
+
+*foreground: col07
+*background: col00
+*cursorColor: col03
+
+! Fonts
+Xft.antialias: true
+XTerm*renderFont: true
+XTerm*faceName: "Liberation Mono"
+XTerm*faceSize: 12
+XTerm*faceSize1: 14
+XTerm*faceSize2: 16
+XTerm*faceSize3: 20
+XTerm*faceSize4: 22
+XTerm*faceSize5: 24
+XTerm*faceSize6: 32
+XTerm.vt100.renderFont: true
+XTerm.vt100.faceName: "Liberation Mono"
+URxvt*font: xft:LiberationMono-12

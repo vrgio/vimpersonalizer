@@ -1,0 +1,5 @@
+# swap
+*.sw?
+# build dir
+build/*
+
