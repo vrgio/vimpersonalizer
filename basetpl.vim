@@ -1,12 +1,14 @@
-set background=dark
-
 highlight clear
 if exists("syntax_on")
   syntax reset
 endif
 
+let g:colors_name = "basetpl"
+set background=dark
+
 "source "~/.vim/colors/theme.vim"
 exec "source " . expand('<sfile>:p:h') . "/theme.vim"
+
 
 " Colours defs
 let s:cgui00=gui00
