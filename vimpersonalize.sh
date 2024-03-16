@@ -115,6 +115,7 @@ Installtheme() {
   cp "${BUILDDIR}/theme" "$XRESDIR/theme"
   mkdir -p "$VIMCOL"
   cp "${CWD}/basetpl.vim" "${BUILDDIR}/theme.vim" "$VIMCOL/"
+  cp ./colours.txt "${HOME}/.config/"
 }
 
 # do

@@ -64,6 +64,7 @@ Alternatively, the `-c` or `--concat` option generates `theme.vim` and `Xresourc
 
 + The `Xresources` template includes some basic fonts definitions. Replace this part either from the given template or the resulting files.
 + With `-a` or `-i` options, the Vim colorscheme is called `basetpl`. With the `-c` option, it is called `mytheme` (`mytheme` being the user-defined string in the first line of `colours.txt`)
++ Preview the colourscheme with `sh previewr.sh`
 
 ## Credits
 
